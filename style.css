@@ -1,1 +1,21 @@
 
+body{
+   padding: 20px;
+   font-family: "Arial";
+}
+
+.catalogue{
+   
+}
+
+.folder:first-line{
+}
+
+.folders {
+   list-style-type: circle;
+}
+
+.files {
+   list-style-type: square;   
+}
+
