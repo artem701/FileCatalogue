@@ -4,13 +4,6 @@ body{
    font-family: "Arial";
 }
 
-.catalogue{
-   
-}
-
-.folder:first-line{
-}
-
 .folders {
    list-style-type: circle;
 }
