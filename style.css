@@ -5,9 +5,10 @@ body{
 }
 
 /* Скрытие подпапок в начале работы */
+/*
 .folders li ul {
    display: none;
-}
+}*/
 
 .folders li:hover {
    cursor: pointer;
