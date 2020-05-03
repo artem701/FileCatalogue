@@ -4,6 +4,15 @@ body{
    font-family: "Arial";
 }
 
+/* Скрытие подпапок в начале работы */
+.folders li ul {
+   display: none;
+}
+
+.folders li:hover {
+   cursor: pointer;
+}
+
 .folders {
    list-style-type: circle;
 }
