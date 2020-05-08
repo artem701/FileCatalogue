@@ -4,7 +4,11 @@ body {
    font-family: "Arial";
 }
 
-.folders li:hover {
+ul {
+   margin: 0;
+}
+
+.folders li span:hover {
    cursor: pointer;
 }
 
