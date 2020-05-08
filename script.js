@@ -41,7 +41,6 @@ function add(route, dir)
    }
    if (route.length == 1)
    {
-      // так нельзя
       let allfiles = dir.querySelectorAll(".files");
       let files = allfiles[allfiles.length - 1];
       for (f of files.childNodes)
@@ -59,6 +58,7 @@ function add(route, dir)
       return true;
    }
    
+   // В первом уровне подпапок ищем очередную часть пути
    for (d of dir.querySelector(".folders").childNodes )
       if (d.tagName == "LI" && d.querySelector("span").innerHTML == route[0]){
          route.splice(0,1)
